@@ -156,6 +156,7 @@ button {
     border-radius: 4px;
     gap: 10px;
     display: block;
+    min-width: 169px;
 }
 
 .hero-buy-btn:hover,
@@ -212,6 +213,7 @@ button {
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0 120px 0;
 }
 
 .team-title {
@@ -300,6 +302,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .portfolio-capt-item {
