@@ -126,22 +126,20 @@ button {
 
 .hero {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
-    font-family: "Ralewey", sans-serif;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 48px;
     max-width: 496px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
+    margin: 0 auto;
+
 }
 
 .hero-buy-btn {
@@ -166,6 +164,11 @@ button {
 }
 
 /* features */
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
@@ -184,6 +187,9 @@ button {
     overflow: hidden;
 }
 
+.features-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
 
 .features-subtitle {
     font-weight: 500;
@@ -191,6 +197,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -215,6 +222,7 @@ button {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -224,6 +232,10 @@ button {
 
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #FFFFFF;
 }
 
 .team-item-name {
@@ -233,6 +245,13 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
+    padding-top: 32px;
+}
+
+.team-item-title {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-item-prof {
@@ -242,11 +261,16 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 32px;
 }
 
 
 
 /* .portfolio {} */
+
+.portfolio {
+    padding: 120px 0 120px 0;
+}
 
 .portfolio-title {
     font-weight: 700;
@@ -256,8 +280,19 @@ button {
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
+.portfolio-list {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+}
 
 .portfolio-caption {
     font-weight: 500;
@@ -265,6 +300,12 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.portfolio-capt-item {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .portfolio-text {
@@ -279,9 +320,13 @@ button {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -305,4 +350,5 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
