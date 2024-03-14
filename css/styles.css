@@ -90,9 +90,9 @@ button {
     display: block;
 }
 
-.header-menu-item {
+/* .header-menu-item {
     padding: 24px 0;
-}
+} */
 
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -247,8 +247,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
-    padding-top: 32px;
+    margin-bottom: 8px;    
 }
 
 .team-item-title {
@@ -263,7 +262,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
+
 }
 
 
